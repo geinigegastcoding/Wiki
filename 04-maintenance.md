@@ -9,7 +9,7 @@ sources: []
 
 # Wiki Maintenance Contract
 
-The daily audit is conservative and repeatable. It must improve structure without destroying history.
+The daily audit is conservative and repeatable. It must improve structure without destroying history. Automatic commits and pushes are approved; the job should commit intended wiki changes after auditing and then push `main`.
 
 ## Audit checklist
 

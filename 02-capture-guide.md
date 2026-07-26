@@ -9,7 +9,7 @@ sources: [sources/turingstation-second-brain.md]
 
 # Capture Guide
 
-The goal is zero-friction capture. Send a Telegram text or Dutch voice note naturally; Hermes handles Capture and Organize. You do not need to name a folder or format.
+The goal is zero-friction capture. Send a Telegram text or Dutch voice note naturally; Hermes handles Capture and Organize. Dutch is the default language for personal captures, while preserving quoted text and source language where useful. You do not need to name a folder or format.
 
 ## Examples
 

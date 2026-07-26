@@ -22,7 +22,7 @@ This vault is the shared context layer for Daniel and Hermes. It is an Obsidian-
 ## Boundaries
 
 - `company/` contains Magisdata-only context imported from the `Kennis` folder.
-- `personal/` is for Daniel's personal life, preferences, ideas, books, places, habits, recipes, and plans. It starts empty except for its structure.
+- `personal/` is for Daniel's personal life, preferences, ideas, books, places, habits, recipes, plans, health, finances, relationships, and private journal. Sensitive categories are allowed because the user explicitly opted in; treat them as private context and never expose them unnecessarily.
 - `logs/` preserves imported company logs unchanged and receives maintenance entries.
 - `personal/inbox/` is the landing zone for uncategorized captures; organize it later, never lose it.
 - `_archive/` contains superseded material. Archive instead of deleting.

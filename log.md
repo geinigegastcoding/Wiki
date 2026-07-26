@@ -10,3 +10,9 @@
 - Added system authority, navigation, capture, operating-model, and maintenance contracts.
 - Added empty personal capture/resource structure.
 - Imported the accessible Turing Station article as a provenance note; the requested CAPTURE_GUIDE URL returned 404.
+
+## [2026-07-26] update | Capture preferences
+
+- Defaulted personal captures to Dutch.
+- Enabled sensitive personal categories including health, finances, relationships, and private journal.
+- Confirmed automatic daily commit and push behavior for maintenance.
