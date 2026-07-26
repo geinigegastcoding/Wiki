@@ -12,4 +12,4 @@ status: active
 
 Keep habit definitions and trends here; keep raw daily observations in `personal/journal/`. Never infer medical conclusions from casual captures.
 
-Related: [[02-capture-guide]], [[personal/journal]], [[01-navigation]]
+Related: [[02-capture-guide]], [[personal/journal/README]], [[01-navigation]]

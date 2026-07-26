@@ -17,10 +17,12 @@ The imported `Kennis` material is under `company/`. It is company-only context. 
 ## Personal
 
 - [[personal/inbox/README]] — temporary capture landing zone.
+- [[personal/areas/habits]] — habit definitions and trends.
+- [[personal/areas/ideas]] — personal ideas directory.
 - [[personal/resources/books/README]] — book collection.
-- `personal/areas/` — ongoing life areas.
-- `personal/resources/` — reusable resources.
-- `personal/journal/` — dated reflections and habit observations.
+- [[personal/resources/places/README]] — places and recommendations.
+- [[personal/resources/recipes/README]] — recipes and cooking references.
+- [[personal/journal/README]] — dated reflections and habit observations.
 
 ## Sources and queries
 

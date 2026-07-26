@@ -32,9 +32,12 @@ sources: []
 ## Personal
 
 - [[personal/inbox/README]] — uncategorized captures.
-- `personal/areas/` — ongoing areas of life.
-- `personal/resources/` — books, recipes, places, references, and other reusable resources.
-- `personal/journal/` — dated reflections and habit logs.
+- [[personal/areas/habits]] — habit definitions and trends.
+- [[personal/areas/ideas]] — personal ideas.
+- [[personal/resources/books/README]] — books and reading status.
+- [[personal/resources/places/README]] — places and recommendations.
+- [[personal/resources/recipes/README]] — recipes and cooking references.
+- [[personal/journal/README]] — dated reflections and habit logs.
 
 ## Provenance
 

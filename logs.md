@@ -10,6 +10,6 @@ status: active
 
 # Logs Directory
 
-Historical Magisdata logs imported from the original Kennis vault are preserved in this directory and should not be rewritten. Automated wiki maintenance is recorded in [[Wiki Maintenance Log]].
+Historical Magisdata logs imported from the original Kennis vault are preserved in this directory and should not be rewritten. Automated wiki maintenance is recorded in [[logs/wiki-maintenance]].
 
 Related: [[00-authority]], [[04-maintenance]], [[company/progress]]
