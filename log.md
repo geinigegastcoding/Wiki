@@ -16,3 +16,8 @@
 - Defaulted personal captures to Dutch.
 - Enabled sensitive personal categories including health, finances, relationships, and private journal.
 - Confirmed automatic daily commit and push behavior for maintenance.
+
+## [2026-07-27] capture | Memo voor Toooo
+
+- Stored the Telegram capture in `personal/ideas/2026-07-27-memo-voor-toooo.md`.
+- Captured the three ideas: browser Spotify script, a YouTube account for papa, and a customized Python course.

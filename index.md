@@ -1,6 +1,6 @@
 # Wiki Index
 
-> Canonical navigation for Daniel's second brain. Last updated: 2026-07-26.
+> Canonical navigation for Daniel's second brain. Last updated: 2026-07-28.
 
 ## System
 
@@ -14,11 +14,19 @@
 
 The imported `Kennis` material is under `company/`. It is company-only context. Start with [[company/Readme]], [[company/Status]], [[company/PROJECTS]], and [[company/decisions]]. Historical logs are preserved under `logs/`.
 
+- [[company/Business_Data]] — business data contract.
+- [[company/Products and Pricing]] — commercial offerings.
+- [[company/progress]] — progress context.
+- [[company/Article_Inventory]] — content inventory.
+- [[company/Competitor_Research/Competitor_Analysis]] — competitor synthesis.
+- [[company/SOP's/video-to-prd-SOP]] — video-to-PRD workflow.
+
 ## Personal
 
 - [[personal/inbox/README]] — temporary capture landing zone.
 - [[personal/areas/habits]] — habit definitions and trends.
 - [[personal/areas/ideas]] — personal ideas directory.
+- [[personal/ideas/2026-07-27-memo-voor-toooo]] — captured ideas for Spotify, YouTube, and a customized Python course.
 - [[personal/resources/books/README]] — book collection.
 - [[personal/resources/places/README]] — places and recommendations.
 - [[personal/resources/recipes/README]] — recipes and cooking references.
