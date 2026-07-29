@@ -39,3 +39,11 @@ Automated daily audits append entries here. Imported Magisdata logs are kept sep
 - Actions: preserved all information; added important company and personal navigation entries, updated navigation dates, and repaired the attachment link in `company/Journals-WrittenByDaniël/Improving Codex.md`. No notes archived or deleted; imported logs unchanged.
 - Changed files: `index.md`, `01-navigation.md`, `company/Journals-WrittenByDaniël/Improving Codex.md`, `logs/wiki-maintenance.md`.
 - Push status: succeeded to `origin/main` after commit `e585ef2`.
+
+## [2026-07-29] audit | Daily wiki maintenance
+
+- Audited 75 Markdown files, excluding imported historical Markdown under `logs/` and raw HTML sources.
+- Findings: 0 broken wikilinks, 0 duplicate titles, 45 orphan active notes (primarily legacy/imported company material plus root utility notes), 0 missing important navigation entries, 0 frontmatter defects in 14 scoped system/personal/source/query notes, 0 invalid tags, 0 stale status/decision notes, 0 unresolved `needs-review` captures, and 3 oversized company pages (>200 lines).
+- Actions: preserved all information; no notes archived, deleted, or rewritten; imported files under `logs/` remain unchanged. No navigation repairs were necessary.
+- Changed files: `logs/wiki-maintenance.md`.
+- Push status: pending until commit and push verification.
