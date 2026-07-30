@@ -1,7 +1,7 @@
 ---
 title: Wiki Maintenance Log
 created: 2026-07-26
-updated: 2026-07-26
+updated: 2026-07-30
 type: log
 tags: [system, maintenance, github]
 sources: []
@@ -47,3 +47,10 @@ Automated daily audits append entries here. Imported Magisdata logs are kept sep
 - Actions: preserved all information; no notes archived, deleted, or rewritten; imported files under `logs/` remain unchanged. No navigation repairs were necessary.
 - Changed files: `logs/wiki-maintenance.md`.
 - Push status: succeeded to `origin/main` after commit `60ca21e`.
+
+## [2026-07-30] audit | Daily wiki maintenance
+
+- Audited 76 Markdown files, excluding imported historical Markdown under `logs/` and raw HTML sources; validated 14 scoped system/personal/source/query notes.
+- Findings: 0 broken wikilinks after repairing one missing attachment reference, 0 duplicate titles, 38 orphan active notes (primarily legacy/imported company material and templates), 0 missing important navigation entries, 0 scoped frontmatter defects, 0 invalid tags, 0 stale status/decision notes, 0 unresolved `needs-review` captures, and 0 oversized scoped notes. Three oversized company council pages remain preserved for review.
+- Actions: preserved all information; replaced the broken image embed in `company/Journals-WrittenByDaniël/Improving Codex.md` with a comment retaining the original missing path. No notes archived or deleted; imported files under `logs/` unchanged.
+- Changed files: `company/Journals-WrittenByDaniël/Improving Codex.md`, `logs/wiki-maintenance.md`.
