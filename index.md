@@ -1,8 +1,10 @@
 # Wiki Index
 
-> Canonical navigation for Daniel's second brain. Last updated: 2026-07-28.
+> Canonical navigation for Daniel's second brain. Last updated: 2026-08-02.
 
 ## System
+
+- [[README]] — repository overview and quick start.
 
 - [[00-authority]] — trust model and company/personal boundaries.
 - [[01-navigation]] — map of the vault.

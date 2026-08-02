@@ -1,7 +1,7 @@
 ---
 title: Wiki Maintenance Log
 created: 2026-07-26
-updated: 2026-08-01
+updated: 2026-08-02
 type: log
 tags: [system, maintenance, github]
 sources: []
@@ -70,3 +70,11 @@ Automated daily audits append entries here. Imported Magisdata logs are kept sep
 - Actions: preserved all information; no notes archived or deleted; no link or navigation repairs were necessary; updated this log's `updated` date; imported files under `logs/` remain unchanged.
 - Changed files: `logs/wiki-maintenance.md`.
 - Push status: succeeded to `origin/main` after commit `67820a9`.
+
+## [2026-08-02] audit | Daily wiki maintenance
+
+- Audited 76 Markdown files, excluding 36 imported historical Markdown files under `logs/` and raw HTML sources; imported historical files were not modified.
+- Findings: 0 broken wikilinks, 0 duplicate titles, 45 orphan active notes (primarily preserved legacy/imported company material and root utility notes), 1 missing important navigation entry (`README.md`), 0 frontmatter defects in 14 scoped system/personal/source/query notes, 0 invalid tags detected, 0 stale status/decision notes, 0 unresolved `needs-review` captures, and 3 oversized company council pages (>200 lines).
+- Actions: added `[[README]]` to `index.md` and `01-navigation.md`, updated navigation dates, and preserved all information. No notes archived or deleted; imported files under `logs/` remain unchanged.
+- Changed files: `index.md`, `01-navigation.md`, `logs/wiki-maintenance.md`.
+- Push status: pending commit and push verification.

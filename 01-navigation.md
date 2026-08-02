@@ -1,7 +1,7 @@
 ---
 title: Wiki Navigation
 created: 2026-07-26
-updated: 2026-07-28
+updated: 2026-08-02
 type: system
 tags: [system, navigation, company, personal]
 sources: []
@@ -11,6 +11,7 @@ sources: []
 
 ## System
 
+- [[README]] — repository overview and quick start.
 - [[00-authority]] — authority, evidence, and company/personal boundary.
 - [[02-capture-guide]] — how Telegram captures become durable notes.
 - [[03-operating-model]] — how Hermes should use this vault.
