@@ -109,4 +109,4 @@ Automated daily audits append entries here. Imported Magisdata logs are kept sep
 - Findings: 0 broken wikilinks, 0 duplicate titles, 44 orphan active notes (primarily preserved legacy/imported company material, templates, and root utility notes), 0 missing important navigation entries, 0 frontmatter defects in 15 scoped system/personal/source notes, 0 invalid tags, 0 stale status/decision notes, 0 unresolved `needs-review` captures, and 3 oversized company pages (>200 lines: `company/council.md`, `company/councils/template-creation-council.md`, `company/councils/keyword-strategy-council.md`). One malformed legacy template YAML was observed outside the scoped frontmatter set: `company/Templates/demo-loodgieter-website.md`.
 - Actions: preserved all information; no notes archived, deleted, rewritten, or link-repaired; no navigation changes were necessary. Imported files under `logs/` remain unchanged.
 - Changed files: `logs/wiki-maintenance.md`.
-- Push status: pending until commit and push verification.
+- Push status: succeeded to `origin/main` after commit `4ad906c`.
