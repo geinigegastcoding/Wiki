@@ -1,7 +1,7 @@
 ---
 title: Wiki Maintenance Log
 created: 2026-07-26
-updated: 2026-08-07
+updated: 2026-08-08
 type: log
 tags: [system, maintenance, github]
 sources: []
@@ -117,3 +117,11 @@ Automated daily audits append entries here. Imported Magisdata logs are kept sep
 - Findings: 0 broken wikilinks, 0 duplicate titles, 44 orphan active notes (primarily preserved legacy/imported company material, templates, and root utility notes), 0 missing important navigation entries, 0 scoped frontmatter defects across system/personal/source/query notes (root `README.md` remains an intentionally structural, frontmatter-free utility note), 0 invalid tags, 0 stale status/decision notes, 0 unresolved `needs-review` captures, and 3 oversized company council pages (>200 lines).
 - Actions: preserved all information; no notes archived, deleted, rewritten, or link-repaired; no navigation changes were necessary; updated this log's date. Imported files under `logs/` remain unchanged.
 - Changed files: `logs/wiki-maintenance.md`.
+
+## [2026-08-08] audit | Daily wiki maintenance
+
+- Audited 76 Markdown files, excluding 36 imported historical Markdown files under `logs/` and the raw HTML source `sources/turingstation-second-brain.html`; imported historical files were not modified.
+- Findings: 0 broken wikilinks, 0 duplicate titles, 44 orphan active notes (primarily preserved legacy/imported company material, templates, and root utility notes), 0 missing important navigation entries, 0 frontmatter defects across 14 scoped system/personal/source/query notes, 0 invalid tags, 0 stale status/decision notes, 0 unresolved `needs-review` captures, and 3 oversized company council pages (>200 lines: `company/council.md`, `company/councils/template-creation-council.md`, `company/councils/keyword-strategy-council.md`). One malformed legacy template YAML remains outside the scoped frontmatter set: `company/Templates/demo-loodgieter-website.md`.
+- Actions: preserved all information; no notes archived, deleted, rewritten, or link-repaired; no navigation changes were necessary. Procedural `needs-review` references in system pages are not unresolved captures. Imported files under `logs/` remain unchanged.
+- Changed files: `logs/wiki-maintenance.md`.
+- Push status: pending until commit and push verification.
