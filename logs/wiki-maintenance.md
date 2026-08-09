@@ -1,7 +1,7 @@
 ---
 title: Wiki Maintenance Log
 created: 2026-07-26
-updated: 2026-08-08
+updated: 2026-08-09
 type: log
 tags: [system, maintenance, github]
 sources: []
@@ -125,3 +125,11 @@ Automated daily audits append entries here. Imported Magisdata logs are kept sep
 - Actions: preserved all information; no notes archived, deleted, rewritten, or link-repaired; no navigation changes were necessary. Procedural `needs-review` references in system pages are not unresolved captures. Imported files under `logs/` remain unchanged.
 - Changed files: `logs/wiki-maintenance.md`.
 - Push status: succeeded to `origin/main` after commit `6cd04b9`.
+
+## [2026-08-09] audit | Daily wiki maintenance
+
+- Audited 76 Markdown files, excluding 36 imported historical Markdown files under `logs/` and the raw HTML source `sources/turingstation-second-brain.html`; imported historical files were not modified.
+- Findings: 0 broken wikilinks, 0 duplicate titles, 44 orphan active notes (primarily preserved legacy/imported company material, templates, and root utility notes), 0 missing important navigation entries after repair, 0 frontmatter defects across 14 scoped system/personal/source/query notes, 0 invalid tags observed, 0 stale status/decision notes, 0 unresolved `needs-review` captures, and 3 oversized company council pages (>200 lines: `company/council.md`, `company/councils/template-creation-council.md`, `company/councils/keyword-strategy-council.md`). The recurring malformed legacy template YAML remains outside the scoped frontmatter set: `company/Templates/demo-loodgieter-website.md`.
+- Actions: added the important `logs.md` navigation entry to `index.md` and `01-navigation.md`, updated navigation and `logs.md` dates, and preserved all information. No notes were archived or deleted; imported files under `logs/` remain unchanged.
+- Changed files: `index.md`, `01-navigation.md`, `logs.md`, `logs/wiki-maintenance.md`.
+- Push status: pending commit and push verification.

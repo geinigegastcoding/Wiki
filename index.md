@@ -1,6 +1,6 @@
 # Wiki Index
 
-> Canonical navigation for Daniel's second brain. Last updated: 2026-08-02.
+> Canonical navigation for Daniel's second brain. Last updated: 2026-08-09.
 
 ## System
 
@@ -11,6 +11,7 @@
 - [[02-capture-guide]] — Telegram and voice-note capture rules.
 - [[03-operating-model]] — how Hermes reads and writes context.
 - [[04-maintenance]] — audit, archive, and GitHub contract.
+- [[logs]] — preserved historical logs directory and maintenance-log pointer.
 
 ## Company — Magisdata
 

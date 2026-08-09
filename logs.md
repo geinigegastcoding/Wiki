@@ -1,7 +1,7 @@
 ---
 title: Logs Directory
 created: 2026-07-26
-updated: 2026-07-26
+updated: 2026-08-09
 type: system
 tags: [system, logs, history]
 sources: []

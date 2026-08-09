@@ -1,7 +1,7 @@
 ---
 title: Wiki Navigation
 created: 2026-07-26
-updated: 2026-08-02
+updated: 2026-08-09
 type: system
 tags: [system, navigation, company, personal]
 sources: []
@@ -16,6 +16,7 @@ sources: []
 - [[02-capture-guide]] — how Telegram captures become durable notes.
 - [[03-operating-model]] — how Hermes should use this vault.
 - [[04-maintenance]] — daily audit and quality rules.
+- [[logs]] — preserved historical logs directory and maintenance-log pointer.
 
 ## Company: Magisdata
 
