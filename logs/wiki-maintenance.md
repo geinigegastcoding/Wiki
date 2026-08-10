@@ -1,7 +1,7 @@
 ---
 title: Wiki Maintenance Log
 created: 2026-07-26
-updated: 2026-08-09
+updated: 2026-08-10
 type: log
 tags: [system, maintenance, github]
 sources: []
@@ -133,3 +133,11 @@ Automated daily audits append entries here. Imported Magisdata logs are kept sep
 - Actions: added the important `logs.md` navigation entry to `index.md` and `01-navigation.md`, updated navigation and `logs.md` dates, and preserved all information. No notes were archived or deleted; imported files under `logs/` remain unchanged.
 - Changed files: `index.md`, `01-navigation.md`, `logs.md`, `logs/wiki-maintenance.md`.
 - Push status: succeeded to `origin/main` after commit `7f60c6d`; the final log-status update was committed and pushed separately.
+
+## [2026-08-10] audit | Daily wiki maintenance
+
+- Audited 76 Markdown files, excluding 35 imported historical Markdown files under `logs/` and the raw HTML source `sources/turingstation-second-brain.html`; imported historical files were not modified.
+- Findings: 0 broken wikilinks, 0 duplicate titles, 45 orphan active notes (primarily preserved legacy/imported company material, templates, and root utility notes), 53 missing index entries (mostly preserved legacy/imported company material and root utility notes), 0 frontmatter defects across 14 scoped system/personal/source/query notes, 0 invalid tags, 0 stale status/decision notes, 0 unresolved `needs-review` captures, and 3 oversized company council pages (>200 lines: `company/council.md`, `company/councils/template-creation-council.md`, `company/councils/keyword-strategy-council.md`).
+- Actions: preserved all information; no notes archived, deleted, rewritten, or link-repaired. All important system, company overview/status/project/decision, and personal navigation entries were already present. Imported files under `logs/` remain unchanged.
+- Changed files: `logs/wiki-maintenance.md`.
+- Push status: pending until the maintenance commit is created and pushed.
