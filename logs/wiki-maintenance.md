@@ -136,7 +136,7 @@ Automated daily audits append entries here. Imported Magisdata logs are kept sep
 
 ## [2026-08-10] audit | Daily wiki maintenance
 
-- Audited 76 Markdown files, excluding 35 imported historical Markdown files under `logs/` and the raw HTML source `sources/turingstation-second-brain.html`; imported historical files were not modified.
+- Audited 76 Markdown files, excluding 36 imported historical Markdown files under `logs/` and the raw HTML source `sources/turingstation-second-brain.html`; imported historical files were not modified.
 - Findings: 0 broken wikilinks, 0 duplicate titles, 45 orphan active notes (primarily preserved legacy/imported company material, templates, and root utility notes), 53 missing index entries (mostly preserved legacy/imported company material and root utility notes), 0 frontmatter defects across 14 scoped system/personal/source/query notes, 0 invalid tags, 0 stale status/decision notes, 0 unresolved `needs-review` captures, and 3 oversized company council pages (>200 lines: `company/council.md`, `company/councils/template-creation-council.md`, `company/councils/keyword-strategy-council.md`).
 - Actions: preserved all information; no notes archived, deleted, rewritten, or link-repaired. All important system, company overview/status/project/decision, and personal navigation entries were already present. Imported files under `logs/` remain unchanged.
 - Changed files: `logs/wiki-maintenance.md`.
