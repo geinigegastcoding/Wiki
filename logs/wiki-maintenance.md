@@ -141,3 +141,11 @@ Automated daily audits append entries here. Imported Magisdata logs are kept sep
 - Actions: preserved all information; no notes archived, deleted, rewritten, or link-repaired. All important system, company overview/status/project/decision, and personal navigation entries were already present. Imported files under `logs/` remain unchanged.
 - Changed files: `logs/wiki-maintenance.md`.
 - Push status: succeeded to `origin/main` after commit `9c1941d`.
+
+## [2026-08-11] audit | Daily wiki maintenance
+
+- Audited 76 Markdown files, excluding 36 imported historical Markdown files under `logs/` and raw HTML sources; imported historical files were not modified.
+- Findings: 0 broken Obsidian wikilinks, 0 duplicate titles, 44 orphan active notes (primarily preserved legacy/imported company material, templates, and root utility notes), 0 missing important navigation entries, 0 scoped frontmatter defects across 14 system/personal/source/query notes, 0 invalid tags observed against the vault's existing tag usage, 0 stale status/decision notes, 0 unresolved `needs-review` captures, and 3 oversized company council pages (>200 lines: `company/council.md`, `company/councils/template-creation-council.md`, `company/councils/keyword-strategy-council.md`). `SCHEMA.md` is absent, so no separate declared tag taxonomy was available for validation.
+- Actions: preserved all information; no notes archived, deleted, rewritten, or link-repaired. Important navigation entries were already present. Imported files under `logs/` remain unchanged.
+- Changed files: `logs/wiki-maintenance.md`.
+- Push status: committed locally as `7d1e921`; push pending.
