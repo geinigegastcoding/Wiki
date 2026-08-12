@@ -1,7 +1,7 @@
 ---
 title: Wiki Maintenance Log
 created: 2026-07-26
-updated: 2026-08-10
+updated: 2026-08-12
 type: log
 tags: [system, maintenance, github]
 sources: []
@@ -150,3 +150,11 @@ Automated daily audits append entries here. Imported Magisdata logs are kept sep
 - Changed files: `logs/wiki-maintenance.md`.
 - Push status: succeeded to `origin/main` after commit `5c7b127`.
 - Push recovery: the first post-amend push was rejected with `! [rejected] main -> main (non-fast-forward)` because the amended local commit diverged from the already-pushed maintenance commit; `git pull --rebase origin main` required a conservative merge resolution, after which the push succeeded.
+
+## [2026-08-12] audit | Daily wiki maintenance
+
+- Audited 76 Markdown files, excluding 36 imported historical Markdown files under `logs/` and raw HTML sources; imported historical files were not modified.
+- Findings: 0 broken Obsidian wikilinks, 0 duplicate titles, 44 orphan active notes (primarily preserved legacy/imported company material, templates, and root utility notes), 0 missing important navigation entries, 0 scoped frontmatter defects across 14 system/personal/source/query notes, 0 invalid tags observed against existing vault tag usage, 0 unresolved `needs-review` captures, and 3 oversized company council pages (>200 lines: `company/council.md`, `company/councils/template-creation-council.md`, `company/councils/keyword-strategy-council.md`). Status/decision notes are dated 24 July 2026 and remain explicitly marked with review conditions; surfaced for review, not silently rewritten. `SCHEMA.md` remains absent, so no separate declared tag taxonomy was available.
+- Actions: preserved all information; no notes archived, deleted, rewritten, or link-repaired. Important navigation was already complete. Imported files under `logs/` remain unchanged.
+- Changed files: `logs/wiki-maintenance.md`.
+- Push status: pending audit commit.
